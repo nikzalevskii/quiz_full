@@ -1,0 +1,106 @@
+.answers {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.answer-pre-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 15px;
+
+}
+
+.answer-pre-title-description {
+    color: #DCDCF3;
+    font-size: 20px;
+    line-height: normal;
+
+}
+
+.answer-image {
+    /*width: 15px;*/
+    /*height: 8px;*/
+}
+
+.answer-pre-title-text {
+    color: #6933DC;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.answer-title {
+    margin-top: 60px;
+    /*margin-bottom: 60px;*/
+    font-family: "Museo Sans Curl Bold", sans-serif;
+    font-size: 54px;
+    line-height: normal;
+}
+
+.answer-title span {
+    color: #6933DC;
+}
+
+.answer-block {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.answer-block-title {
+    font-family: "Museo Sans Curl Bold", sans-serif;
+    font-size: 36px;
+    line-height: normal;
+    margin-bottom: 40px;
+
+}
+
+.answer-block-title span {
+    color: #6933DC;
+    margin-bottom: 40px;
+}
+
+.answer-block-option {
+    display: flex;
+    column-gap: 13px;
+}
+
+.answer-block-option:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.answer-block-option-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #6933DC;
+    box-sizing: border-box;
+}
+
+.right-answer {
+    border: 6px solid #5FDC33;
+}
+
+.right-answer-text {
+    color: #5FDC33;
+}
+
+.wrong-answer {
+    border: 6px solid #DC3333;
+}
+
+.wrong-answer-text {
+    color: #DC3333;
+}
+
+.answer-user {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: normal;
+}
+
+#answer-user-info {
+    color: #6933DC;
+    font-family: "Museo Sans Curl Bold", sans-serif;
+    font-size: 20px;
+    line-height: normal;
+}
